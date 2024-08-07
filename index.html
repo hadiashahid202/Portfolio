@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Create a Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+</head>
+<body>
+	<div class="portfolio">
+		<h2>Tell us about your site</h2>
+		<div>
+			<form action="#">
+				<div class="input-box">
+				    <span class="details">Brand Name</span>
+					<input type="text" name="brandname" required>
+				</div>
+				<div class="input-box">
+				    <span class="details">Website type</span>
+                    <select name="websitetype" id="type">
+                        <option value="Portfolio">Portfolio</option>
+                        <option value="Personal">Personal</option>
+                        <option value="Educational">Educational</option>
+                        <option value="Business">Business</option>
+                    </select>
+				</div>
+			</form>
+		</div>
+
+		<h4>Description</h4>
+		<p>Describe your project and brand name in few sentences</p>
+		<textarea class="area" required></textarea>
+
+		<div class="example">
+			<h4>Greate Description</h4>
+			<p onclick="myFunction()"> <i class="fa-solid fa-circle-exclamation"></i> Hide example <i class="fa-sharp fa-solid fa-angle-down"></i></p>
+		</div>
+		<div class="container" id="box">
+			<p id="panel"> E.g an <strong>Italian Restaurant</strong> might write:<br>We serve our guests italian wines and appetisers,served freshly on the terrace.The menu also includes freshly baked pastas,pastas recipes from our famous italian suppliers.The food is served in warm and friendly environment.</p>
+		</div>
+		<input type="submit" id="button" value="Create a Website">
+	</div>
+
+
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>

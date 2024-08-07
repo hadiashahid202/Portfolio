@@ -1,0 +1,92 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	/*font-family: "Roboto", sans-serif;*/
+	font-family: "Montserrate" , sans-serif;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+    background: linear-gradient(to right, #61045F, #AA076B);
+}
+.portfolio{
+	padding: 30px 40px;
+	background: white;
+	width: 50%;
+	border-radius: 10px;
+}
+div.input-box:nth-child(1) > input:nth-child(2){
+	width: 100%;
+	padding: 10px;
+	border: 2px solid #eee;
+	margin: 10px 0px;
+	outline: none;
+}
+#type{
+	width: 100%;
+	padding: 10px;
+	border: 2px solid #eee;
+	background: #fff;
+	margin: 10px 0px;
+	outline: none;
+}
+.details{
+	font-weight: bold;
+}
+.portfolio > h2:nth-child(1){
+	text-align: center;
+	margin-bottom: 10px;
+}
+.area{
+	width: 100%;
+	outline: none;
+	height: 50px;
+	border: 2px solid #eee;
+}
+.example{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 15px;
+	margin: 10px 0px;
+}
+.example > h4:nth-child(1){
+	font-weight: lighter;
+}
+.example > p:nth-child(2){
+	color: purple;
+	cursor: pointer;
+}
+.container{
+	padding: 20px;
+	background: #eee;
+}
+.portfolio > input:nth-child(8){
+	padding: 10px;
+	width: 100%;
+}
+.portfolio > h4:nth-child(3){
+	margin: 10px 0px;
+}
+.portfolio > input:nth-child(8){
+    background: purple;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	margin-top: 10px;
+	padding: 15px 0px;
+}
+.portfolio > p:nth-child(4){
+	color: #838181;
+}
+#panel{
+	color: #413e3e;
+	line-height: 150%;
+}
+.portfolio > input:nth-child(8):hover{
+    background: linear-gradient(to right, #33001b, #ff0084);
+    cursor: pointer;
+}
